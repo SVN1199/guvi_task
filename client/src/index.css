@@ -1,0 +1,431 @@
+body{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color:floralwhite;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px; 
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #f0f0f0; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+
+.login{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 4rem auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.home{
+    color: black;
+}
+
+.header{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.login form{
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+.login input{
+    width: 100% !important;
+    height: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.login .btn{
+    margin-top: 20px;
+    width: 100%;
+    background-color: black !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+hr{
+    width: auto;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 100%;
+}
+
+p{
+    text-align: center;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+}
+
+.reg{
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+}
+
+.register{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 4rem auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+.header_register{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.register form{
+    padding: 10px 10px;
+}
+
+.register input{
+    width: 100% !important;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+p{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.reg{
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+}
+
+.form{
+    background-color: cornsilk;
+    width: 400px;
+    height: auto;
+    border: 1px solid rgba(240, 246, 175, 0.3);
+    margin: 3.5rem auto;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.header_profile{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.profile{
+    padding: 10px;
+    user-select: none;
+}
+
+.profile input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+.profile select{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.profile select option{
+    background: rgba(240, 246, 175, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(240, 246, 175, 0.3);
+}
+
+.profile_btn{
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid blue;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.line{
+    background-color: black;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.loading{
+    width: 80px;
+    height: 80px;
+    margin: 42vh auto;
+    transform: translateY(-50%);
+    border: 3px solid black;
+    background-color: gray;
+    border-radius: 100%;
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0% { width: 40px; height: 40px;}
+    100% { width: 80px; height: 80px; }
+  }
+
+.pass_error{
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.react_icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.user_icon{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.react_user_icon{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.react_name_icon{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.react_list li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline;
+    justify-content: start;
+}
+
+.user_icon a{
+    text-decoration: none;
+}
+
+
+.icon{
+    height: 25px;
+    width: 25px;
+}
+
+.form_profile{
+    padding: 20px 20px;
+    height: auto;
+    width: 400px;
+    margin:3rem auto;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    background: rgba(240, 246, 175, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(240, 246, 175, 0.3);
+}
+
+.line_profile{
+    width: auto;
+    border: 1px solid gray;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.profile_line{
+    height: 3px;
+    width: auto;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.form_profile label{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.form_profile .name{
+    margin-top: 10px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: start !important;
+}
+
+.profile_heading{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.edit_icon{
+    text-align: end;
+    position: absolute;
+    right: 0;
+}
+
+.edit{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.data_noFound{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: 8rem auto;
+    color: green;
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width : 768px) {
+
+    .form_profile{
+        padding: 20px 20px;
+        height: auto;
+        font-size: 18px;
+        width: 94%;
+        margin: 6rem auto;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+  }
+    
+  .edit{
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+}
+  
+.form{
+    width: 100%;
+    height: auto;
+    margin: 6rem auto;
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+    right: 0;
+}
+
+.react_icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+}
